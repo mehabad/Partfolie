@@ -1,0 +1,610 @@
+/* Basis styles */
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: black;
+
+
+}
+
+
+
+/* Navigation */
+
+av {
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    padding: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    justify-content: center;
+
+
+}
+
+nav a {
+    color: black; // text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+
+
+
+nav ul {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    padding-left: ;
+    text-decoration-color: red;
+    color: black;
+    text-align: center;
+    margin-bottom: 100px;
+
+
+}
+
+
+}
+
+nav a {
+    color: white; // text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+    text-decoration-color: black;
+    color: black;
+
+}
+
+nav ul li {
+    position: relative;
+    padding-right: 2em;
+
+
+}
+
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    background-color: ;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    padding: 1em;
+
+}
+
+.dropdown > ul li {
+    white-space: nowrap;
+    padding: 0 2em;
+
+}
+
+.dropdown:hover > ul {
+    display: block;
+
+
+
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-family: 'Oswald',
+    sans-serif;
+    font-size: 2.5em;
+    color: black;
+
+
+
+}
+
+@media screen and (max-width:1030px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 3px;
+
+
+    }
+}
+
+#forside {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 100%;
+    justify-content: center;
+
+}
+
+
+
+#forsidebillede {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 100%;
+    justify-content: center;
+
+}
+
+hr {
+    width: 100%;
+    height: 3.5px;
+    background-color: black;
+    border: none;
+}
+
+
+
+
+
+
+}
+
+/*Typegrafi*/
+
+#text {
+
+    padding-left: 20em;
+    padding-right: 20em;
+    padding-bottom: 20em;
+
+
+}
+
+
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+h1 {
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+
+p {
+    margin: 00em;
+    padding-left: 32em;
+    padding-right: 25em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+
+
+
+
+}
+
+
+#link {
+    color: black;
+    font-family: helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+
+
+
+
+
+
+#kilhof {
+    margin-right: 700px;
+    margin-left: 400px;
+    height: vh;
+}
+
+
+#kilofvideo {
+    margin-right: 500px;
+    margin-left: 444px;
+
+
+}
+
+#e {
+    margin-right: 500px;
+    margin-left: 460px;
+}
+
+
+#trello {
+    margin-right: 500px;
+    margin-left: 440px;
+    margin-bottom: 45px;
+    margin-top: -25px;
+}
+
+
+
+#mood {
+    margin-right: 500px;
+    margin-left: 330px;
+    margin-top: -25px;
+}
+
+
+
+#keapp {
+    padding-left: 500px;
+}
+
+#cv {
+    margin: 00em;
+    padding-left: 10em;
+    padding-right: 50em;
+    padding-bottom: 20px;
+
+
+}
+
+#me {
+    margin: 00em;
+    padding-left: 10em;
+    padding-right: 50em;
+    padding-bottom: 20px;
+}
+
+
+
+#bcm {
+    margin: 00em;
+    padding-left: 25em;
+    padding-right: 50em;
+    padding-bottom: 5em;
+
+}
+
+#style {
+    margin: 00em;
+    padding-left: 25em;
+    padding-right: 50em;
+    padding-bottom: 5em;
+
+}
+
+#joe {
+    margin: 00em;
+    padding-left: 25em;
+    padding-right: 50em;
+    padding-bottom: 5em;
+}
+
+.stilartWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 420px;
+    width: 35vw;
+
+}
+
+.stilartWrapper h1 {
+    text-align: center;
+}
+
+.stilartWrapper h3 {
+
+    margin: 0;
+    padding: 0;
+    width: 35vw;
+    padding-bottom: 1em;
+    color: cadetblue;
+    padding-left: 8em;
+}
+
+.stilartWrapper p {
+
+    margin: 0;
+    padding: 0;
+    width: 35vw;
+    padding-bottom: 1em;
+
+}
+
+
+.footer {}
+
+
+.stilartWrapper img {
+
+    margin: 0;
+    padding: 0;
+    width: 35vw;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+
+}
+
+
+.aNoHover {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    transition: 1s;
+    margin: 0.3em;
+    padding-bottom: 1em;
+}
+
+.aHover {
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: underline;
+    color: pink;
+    transition: 1s;
+    margin: 0.3em;
+}
+
+
+.cv {
+
+    text-align: center;
+
+}
+
+footer {
+    padding: 1em;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+
+    .html {
+
+        display: :none;
+        position: absolute;
+        top: 100%;
+        left: 50px;
+
+    }
+
+
+
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        text-align: center;
+
+    }
+
+
+    stilartWrapper img {
+        display: flex;
+        flex-direction: column;
+    }
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -45%;
+    }
+
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 5%;
+    }
+
+    .footer {
+        width: auto;
+        float: none;
+        margin: 0 0 20px !important;
+
+    }
+}
+
+
+
+@media screen and (min-width:600px) {
+    .stilartWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -40%;
+    }
+
+    .stilartWrapper p {
+        line-height: 1.5;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+
+
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 48%;
+    }
+
+    .footer {
+        width: 90em;
+        margin-left: -50em;
+
+
+
+    }
+
+
+    .cv {
+        width: 90em;
+        margin-left: -30em;
+
+    }
+}
+
+
+
+@media (max-width:580px) {
+    .stilartWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -40%;
+
+    }
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 10em
+    }
+
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+
+
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 35%;
+    }
+}
+
+
+@media (max-width:400px) {
+    .stilartWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -40%;
+
+    }
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 7g5%;
+
+    }
+
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 135%;
+        margin-left: 50%;
+
+
+
+    }
+
+
+
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 150%;
+        margin-left: 50%;
+
+
+    }
+
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+
+
+
+    .footer p {
+        display: flex;
+        flex-direction: column;
+        width: 150%;
+        margin-left: 50%;
+
+    }
+
+
+
+
+}
