@@ -10,13 +10,10 @@ body {
     margin: 0 auto;
     background-color: white;
     font-family: 'Lato', sans-serif;
-    color: black
-}
+    color: black;
 
-/*
-  max-width: 1200px;
-  margin: 0 auto;
-/*
+
+}
 
 
 
@@ -126,7 +123,14 @@ h1 {
 
 }
 
+@media screen and (max-width:1030px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 3px;
 
+
+    }
 }
 
 #forside {
@@ -153,6 +157,7 @@ hr {
     background-color: black;
     border: none;
 }
+
 
 
 }
@@ -200,9 +205,11 @@ p {
     padding-right: 25em;
     padding-bottom: 1em;
     margin-bottom: 2em;
+
+
+
+
 }
-
-
 
 
 #link {
@@ -325,7 +332,7 @@ p {
     width: 35vw;
     padding-bottom: 1em;
     color: cadetblue;
-    padding-left: 37em;
+    padding-left: 8em;
 }
 
 .stilartWrapper p {
@@ -338,6 +345,19 @@ p {
 }
 
 
+.footer {}
+
+
+.stilartWrapper img {
+
+    margin: 0;
+    padding: 0;
+    width: 35vw;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+
+}
 
 
 .aNoHover {
@@ -370,20 +390,176 @@ footer {
 
 }
 
-/*Screen Size 500px and up*/
-
 @media screen and (max-height: 450px) {
-    .nav ul {
-        padding-top: 16px;
-        font-size: 20px;
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    stilartWrapper img {
+        display: flex;
+        flex-direction: column;
+    }
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
 
     }
-    .sidenav a {
-        font-size: 20px;
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -45%;
+    }
+
+    .stilartWrapper h1 {
+        width: 60vw;
+        height: 40vw;
+        margin-bottom: 100px;
+    }
+
+    .footer {
+        width: 80em;
+
     }
 }
 
-.body {
-    justify-content: center;
-    display: flex;
+
+
+@media screen and (max-width:768px) {
+    .stilartWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -40%;
+    }
+
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+
+
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 48%;
+    }
+
+    footer {
+        width: 90em;
+        margin-left: -30em;
+
+
+
+    }
+}
+
+
+
+
+@media (max-width:580px) {
+    .stilartWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -40%;
+
+    }
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 10em
+    }
+
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+
+    }
+
+
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 35%;
+    }
+}
+
+
+@media (max-width:350px) {
+    .stilartWrapper {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: -40%;
+
+    }
+    .stilartWrapper p {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 7g5%;
+
+    }
+
+    .stilartWrapper h1 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 50%;
+
+    }
+
+    .stilartWrapper a {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+    .stilartWrapper h3 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 75%;
+    }
+    footer {
+        width: 90em;
+        margin-left: -30em;
+
+
+
+    }
+
+
 }
