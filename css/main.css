@@ -11,11 +11,12 @@ body {
     background-color: white;
     font-family: 'Lato', sans-serif;
     color: black;
-
-
 }
 
-
+/*
+  max-width: 1200px;
+  margin: 0 auto;
+*/
 
 /* Navigation */
 
@@ -359,8 +360,7 @@ p {
 
 }
 
-
-.aNoHover {
+paul jeong .aNoHover {
     text-align: center;
     text-decoration: none;
     color: #000000;
@@ -428,8 +428,7 @@ footer {
 }
 
 
-
-@media screen and (max-width:768px) {
+@media screen and (max-height: 768px) {
     .stilartWrapper {
         display: flex;
         flex-direction: column;
@@ -462,13 +461,13 @@ footer {
         display: flex;
         flex-direction: column;
         width: 80%;
-        margin-left: 48%;
+        margin-left: 75%;
     }
 
-    footer {
-        width: 90em;
-        margin-left: -30em;
+    .footer {
 
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
 
 
     }
@@ -476,8 +475,7 @@ footer {
 
 
 
-
-@media (max-width:580px) {
+@media screen and (max-height: 580px) {
     .stilartWrapper {
         display: flex;
         flex-direction: column;
@@ -517,7 +515,7 @@ footer {
 }
 
 
-@media (max-width:350px) {
+@media (max-height: 350px) {
     .stilartWrapper {
         display: flex;
         flex-direction: column;
