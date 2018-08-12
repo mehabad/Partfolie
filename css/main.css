@@ -10,10 +10,13 @@ body {
     margin: 0 auto;
     background-color: white;
     font-family: 'Lato', sans-serif;
-    color: black;
-
-
+    color: black
 }
+
+/*
+  max-width: 1200px;
+  margin: 0 auto;
+/*
 
 
 
@@ -368,3 +371,19 @@ footer {
 }
 
 /*Screen Size 500px and up*/
+
+@media screen and (max-height: 450px) {
+    .nav ul {
+        padding-top: 16px;
+        font-size: 20px;
+
+    }
+    .sidenav a {
+        font-size: 20px;
+    }
+}
+
+.body {
+    justify-content: center;
+    display: flex;
+}
